@@ -39,6 +39,6 @@ int main()
     toggle_gpio(led);
     
     // wait for 1 second
-    HAL_Delay(1000);
+    HAL_Delay(100);
   }
 }
