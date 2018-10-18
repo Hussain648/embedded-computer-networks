@@ -27,7 +27,7 @@ int main()
 	  init_gpio(led, OUTPUT);
 		init_gpio(led2, OUTPUT);
 		init_gpio(led3, OUTPUT);
-		
+	
 		while(1)
 		{
 		
@@ -52,6 +52,5 @@ int main()
 			HAL_GPIO_WritePin (GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
 			HAL_Delay(1000);
 				
-
 		}
 }
